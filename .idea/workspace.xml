@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fd44842-2b3e-4919-9320-4d6926c3d3df" name="Default Changelist" comment="" />
+    <list default="true" id="7fd44842-2b3e-4919-9320-4d6926c3d3df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PeliculaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PeliculaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Pelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Pelicula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PeliculaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PeliculaTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -40,15 +47,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="JUnit.PeliculaTest.getAllPeliculas">
-    <configuration name="PeliculaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PruebaTestAssured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PeliculaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PeliculaTest.getAllPeliculas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PruebaTestAssured" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,10 +57,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemplosTest.Test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PruebaTestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EjemplosTest" />
+      <option name="METHOD_NAME" value="Test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemplosTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PruebaTestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EjemplosTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemplosTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PruebaTestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EjemplosTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemplosTest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PruebaTestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EjemplosTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PeliculaTest.getAllPeliculas" />
-        <item itemvalue="JUnit.PeliculaTest" />
+        <item itemvalue="TestNG.EjemplosTest.test1" />
+        <item itemvalue="TestNG.EjemplosTest.test2" />
+        <item itemvalue="TestNG.EjemplosTest.test4" />
+        <item itemvalue="TestNG.EjemplosTest.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -77,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604934923603</updated>
       <workItem from="1604934928607" duration="2588000" />
-      <workItem from="1604938554195" duration="11053000" />
+      <workItem from="1604938554195" duration="18666000" />
     </task>
     <servers />
   </component>
@@ -93,37 +142,45 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="432" y="219" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.768@0.0.1366.768" timestamp="1604950770776" />
-    <state x="502" y="73" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1604944988116">
+    <state x="502" y="73" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1604961117960">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="502" y="73" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604944988116" />
+    <state x="502" y="73" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604961117960" />
     <state x="462" y="124" key="FileChooserDialogImpl" timestamp="1604950722906">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604950722906" />
-    <state width="1322" height="187" key="GridCell.Tab.0.bottom" timestamp="1604951581219">
+    <state width="1322" height="119" key="GridCell.Tab.0.bottom" timestamp="1604964851277">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604951581219" />
-    <state width="1322" height="187" key="GridCell.Tab.0.center" timestamp="1604951581219">
+    <state width="1322" height="119" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604964851277" />
+    <state width="1322" height="119" key="GridCell.Tab.0.center" timestamp="1604964851277">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604951581219" />
-    <state width="1322" height="187" key="GridCell.Tab.0.left" timestamp="1604951581219">
+    <state width="1322" height="119" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604964851277" />
+    <state width="1322" height="119" key="GridCell.Tab.0.left" timestamp="1604964851276">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604951581219" />
-    <state width="1322" height="187" key="GridCell.Tab.0.right" timestamp="1604951581219">
+    <state width="1322" height="119" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604964851276" />
+    <state width="1322" height="119" key="GridCell.Tab.0.right" timestamp="1604964851277">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="187" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604951581219" />
-    <state x="213" y="37" key="Maven.ArtifactSearchDialog" timestamp="1604942346421">
+    <state width="1322" height="119" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604964851277" />
+    <state x="213" y="37" key="Maven.ArtifactSearchDialog" timestamp="1604961600680">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="213" y="37" key="Maven.ArtifactSearchDialog/0.0.1366.768@0.0.1366.768" timestamp="1604942346421" />
+    <state x="213" y="37" key="Maven.ArtifactSearchDialog/0.0.1366.768@0.0.1366.768" timestamp="1604961600680" />
     <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1604938554561">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1604938554561" />
+    <state x="65" y="78" key="new project wizard" timestamp="1604963225724">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="65" y="78" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1604963225724" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604957521090">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1604957521090" />
   </component>
 </project>
