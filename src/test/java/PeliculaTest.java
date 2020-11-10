@@ -39,6 +39,20 @@ public class PeliculaTest {
             System.out.println(pelicula.getDirector());
             System.out.println(pelicula.getClasificacion());
         }
+    }
+
+
+        //Test 2 Si se encuentra el  ID de la película
+        @Test
+        public void getSiEstaTalPelicula()
+    {
+            given().get("http://localhost:3000/peliculas").then().
+                    body("id[1]", equalTo(2)).
+                    statusCode(200).
+                    log().all();
+
+        }
+
 
 
     }
@@ -46,4 +60,4 @@ public class PeliculaTest {
 
 
 
-}
+
