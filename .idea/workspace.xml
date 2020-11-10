@@ -4,6 +4,7 @@
     <list default="true" id="7fd44842-2b3e-4919-9320-4d6926c3d3df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PeliculaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PeliculaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PeliculaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PeliculaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.PeliculaTest.getSiEstaTalPelicula">
+  <component name="RunManager" selected="JUnit.PeliculaTest.getTodaLaLista">
     <configuration name="PeliculaTest.getAllPeliculas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PruebaTestAssured" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,6 +60,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PeliculaTest" />
       <option name="METHOD_NAME" value="getSiEstaTalPelicula" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeliculaTest.getTodaLaLista" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PruebaTestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PeliculaTest" />
+      <option name="METHOD_NAME" value="getTodaLaLista" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,25 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemplosTest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PruebaTestAssured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EjemplosTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PeliculaTest.getTodaLaLista" />
         <item itemvalue="JUnit.PeliculaTest.getSiEstaTalPelicula" />
         <item itemvalue="JUnit.PeliculaTest.getAllPeliculas" />
         <item itemvalue="TestNG.EjemplosTest.test1" />
         <item itemvalue="TestNG.EjemplosTest.test2" />
-        <item itemvalue="TestNG.EjemplosTest.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604934923603</updated>
       <workItem from="1604934928607" duration="2588000" />
-      <workItem from="1604938554195" duration="21613000" />
+      <workItem from="1604938554195" duration="23079000" />
     </task>
     <servers />
   </component>
@@ -145,22 +144,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604950722906" />
-    <state width="1322" height="175" key="GridCell.Tab.0.bottom" timestamp="1604968067784">
+    <state width="1322" height="93" key="GridCell.Tab.0.bottom" timestamp="1604969848447">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="175" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604968067784" />
-    <state width="1322" height="175" key="GridCell.Tab.0.center" timestamp="1604968067783">
+    <state width="1322" height="93" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604969848447" />
+    <state width="1322" height="93" key="GridCell.Tab.0.center" timestamp="1604969848446">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="175" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604968067783" />
-    <state width="1322" height="175" key="GridCell.Tab.0.left" timestamp="1604968067783">
+    <state width="1322" height="93" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604969848446" />
+    <state width="1322" height="93" key="GridCell.Tab.0.left" timestamp="1604969848446">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="175" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604968067783" />
-    <state width="1322" height="175" key="GridCell.Tab.0.right" timestamp="1604968067783">
+    <state width="1322" height="93" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604969848446" />
+    <state width="1322" height="93" key="GridCell.Tab.0.right" timestamp="1604969848446">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="175" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604968067783" />
+    <state width="1322" height="93" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604969848446" />
     <state x="213" y="37" key="Maven.ArtifactSearchDialog" timestamp="1604961600680">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

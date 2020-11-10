@@ -7,15 +7,14 @@ import java.lang.String;
 import io.restassured.response.Response;
 
 
-
-import static io.restassured.RestAssured.given;
-
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
-import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasItems;
+import static org.junit.Assert.assertTrue;
+
 import org.testng.Assert;
 
 
@@ -42,7 +41,7 @@ public class PeliculaTest {
     }
 
 
-        //Test 2 Si se encuentra el  ID de la película
+        //Test 2 Si se encuentra el  ID de la película, sale 200
         @Test
         public void getSiEstaTalPelicula()
     {
@@ -53,6 +52,14 @@ public class PeliculaTest {
 
         }
 
+        //Test 3 Validación del Tiempo en segundos
+        @Test
+        public void getTodaLaLista(){
+        long timeRequest = get("http://localhost:3000/peliculas").
+                timeIn(TimeUnit.SECONDS);
+                System.out.println(timeRequest);
+                assertTrue(timeRequest<=4);
+        }
 
 
     }
