@@ -40,8 +40,17 @@ public class PeliculaTest {
         }
     }
 
+    //Test 2 Validación del Tiempo en segundos
+    @Test
+    public void getTodaLaLista(){
+        long timeRequest = get("http://localhost:3000/peliculas").
+                timeIn(TimeUnit.SECONDS);
+        System.out.println(timeRequest);
+        assertTrue(timeRequest<=4);
+    }
 
-        //Test 2 Si se encuentra el  ID de la película, sale 200
+
+        //Test 3 Si se encuentra el ID de la película, sale 200
         @Test
         public void getSiEstaTalPelicula()
     {
@@ -52,14 +61,7 @@ public class PeliculaTest {
 
         }
 
-        //Test 3 Validación del Tiempo en segundos
-        @Test
-        public void getTodaLaLista(){
-        long timeRequest = get("http://localhost:3000/peliculas").
-                timeIn(TimeUnit.SECONDS);
-                System.out.println(timeRequest);
-                assertTrue(timeRequest<=4);
-        }
+
 
 
     }
